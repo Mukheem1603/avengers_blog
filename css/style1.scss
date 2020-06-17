@@ -1,0 +1,29 @@
+$clr: grey;
+$b: black;
+.info{
+    font-family: 'Vollkorn SC';
+    background-color:$clr;
+}
+.container{
+    @extend .info;
+    color: white;
+    padding:0px;
+    margin: 0px;
+    width: 100%;
+}
+table
+{
+    border: 1px solid $b;
+    border-collapse: collapse;
+    th{
+        border: 1px solid $b;
+    border-collapse: collapse;
+    padding: 15px;
+    }
+    td{
+        border: 1px solid $b;
+    border-collapse: collapse;
+    padding: 15px;
+    }
+}
+

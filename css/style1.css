@@ -1,0 +1,28 @@
+.info, .container {
+  font-family: "Vollkorn SC";
+  background-color: grey;
+}
+
+.container {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=style1.css.map */
